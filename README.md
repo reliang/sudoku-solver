@@ -7,7 +7,7 @@ If a Sudoku could not be solved by a logical process of elimination, it prints o
 
 ## Instructions
 
-Simply run SudokuSolver.java using
+To execute the program, run SudokuSolver.java using
 
 ```
 java SudokuSolver (filename)
@@ -74,3 +74,16 @@ A failed attempt would look like
  ```
  
  Both sudokuExample.txt and sudokuTest.txt are provided in the files.
+ 
+ ## Files
+ 
+ Grid.java -- contructs a 6x6 2D array and fills it with numbers from
+a Sudoku text file.
+
+SudokuSolver.java -- takes in a blank Sudoku as a Grid and goes through
+each empty box looking for solutions. Prints out "DONE" if process succeeds
+and "FAILED" if process fails, then prints out the final Sudoku.
+
+sudokuExample.txt -- file for testing, a sudoku that can be successfully solved
+
+sudokuTest.txt -- file for testing, a sudoku that cannot be successfully solved

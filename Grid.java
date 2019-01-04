@@ -1,6 +1,4 @@
 /*  Name: Reshu Catherine Liang
- *  PennKey: reliang
- *  Recitation: 219
  *
  *  Execution: Grid g = new Grid(String file);
  * 
